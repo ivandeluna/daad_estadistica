@@ -20,9 +20,6 @@ import pandas_datareader.data as dr  # Lector de datos
 import datetime # Manejo de fechas
 import matplotlib.pyplot as plt # Graficador
 import numpy as np
-from numpy import dot
-from numpy.linalg import inv
-from numpy.linalg import eigvals
 
 start = datetime.datetime(2007,1,1)   # Fecha Inicio
 end = datetime.datetime(2017,9,30)    # Ultima fecha
